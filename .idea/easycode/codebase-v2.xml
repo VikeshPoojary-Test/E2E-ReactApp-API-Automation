@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/com/vikesh/api/model/request/authentication/LoginRequest.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/model/request/authentication/SignupRequest.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/model/request/usermanagement/UpdateProfileRequest.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/model/response/authentication/LoginResponse.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/model/response/usermanagement/UpdateProfileResponse.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/service/Authentication.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/service/UserManagement.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/main/java/com/vikesh/api/BaseService.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/test/java/com/vikesh/api/AuthTest.java;C:/Users/vikes/IdeaProjects/E2E-API-AutomationFramework/src/test/java/com/vikesh/api/UserManagementTest.java" />
+  </component>
+</project>

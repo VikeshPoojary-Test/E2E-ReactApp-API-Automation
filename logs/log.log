@@ -1,0 +1,107 @@
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Request: POST http://64.227.160.186:8080/api/auth/login
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 200
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWaWtlc2giLCJpYXQiOjE3NTExMDM1OTgsImV4cCI6MTc1MTEwNzE5OH0.hWJlhlL5I7rjoFJ8UJKikK6gRsmZJL3p50qheEOb4Xs",
+    "type": "Bearer",
+    "id": 1661,
+    "username": "Vikesh",
+    "email": "v16z5TESTK@example.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.Listener - Test started
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.Listener - getUserProfile
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Request: GET http://64.227.160.186:8080/api/users/profile
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWaWtlc2giLCJpYXQiOjE3NTExMDM1OTgsImV4cCI6MTc1MTEwNzE5OH0.hWJlhlL5I7rjoFJ8UJKikK6gRsmZJL3p50qheEOb4Xs
+Accept=*/*
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 200
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: {
+    "id": 1661,
+    "username": "Vikesh",
+    "email": "v16z5TESTK@example.com",
+    "firstName": "Vikesh",
+    "lastName": "SD",
+    "mobileNumber": "1234567890"
+}
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.Listener - Test passed1
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.Listener - Test started
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.Listener - updateUserProfile
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Request: PUT http://64.227.160.186:8080/api/users/profile
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWaWtlc2giLCJpYXQiOjE3NTExMDM1OTgsImV4cCI6MTc1MTEwNzE5OH0.hWJlhlL5I7rjoFJ8UJKikK6gRsmZJL3p50qheEOb4Xs
+Accept=*/*
+Content-Type=application/json
+2025-06-28 15:09:59 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:10:00 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 200
+2025-06-28 15:10:00 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: {
+    "id": 1661,
+    "username": "Vikesh",
+    "email": "v16z5TESTK@example.com",
+    "firstName": "Vikesh",
+    "lastName": "SD",
+    "mobileNumber": "1234567890"
+}
+2025-06-28 15:10:00 INFO  com.vikesh.api.utility.Listener - Test passed1
+2025-06-28 15:13:22 INFO  com.vikesh.api.utility.LoggingFilter - Request: POST http://64.227.160.186:8080/api/auth/login
+2025-06-28 15:13:22 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+2025-06-28 15:13:22 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 200
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJWaWtlc2giLCJpYXQiOjE3NTExMDM4MDEsImV4cCI6MTc1MTEwNzQwMX0.0HDdPNEX_bdhl8vpYEIq-8mn1tz5PI7OhKYs9axlQcw",
+    "type": "Bearer",
+    "id": 1661,
+    "username": "Vikesh",
+    "email": "v16z5TESTK@example.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - Test started
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - LoginToApp
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Request: POST http://64.227.160.186:8080/api/auth/login
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 200
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZXN0MTkwMTIwMjUxIiwiaWF0IjoxNzUxMTAzODAxLCJleHAiOjE3NTExMDc0MDF9.VezoEh86gfv95JmRxhmJ-p6rzvhR7CplFAcURIcUYP0",
+    "type": "Bearer",
+    "id": 1707,
+    "username": "Test190120251",
+    "email": "Vikes754@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - Test passed1
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - Test started
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - SignUpToApp
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Request: POST http://64.227.160.186:8080/api/auth/signup
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 200
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: User registered successfully!
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - Test passed1
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - Test started
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.Listener - forgotPassword
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Request: POST http://64.227.160.186:8080/api/auth/forgot-password
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Headers: Accept=*/*
+Content-Type=application/json
+2025-06-28 15:13:23 INFO  com.vikesh.api.utility.LoggingFilter - Query Params: {}
+2025-06-28 15:13:24 INFO  com.vikesh.api.utility.LoggingFilter - Response Status: 500
+2025-06-28 15:13:24 INFO  com.vikesh.api.utility.LoggingFilter - Response Body: {
+    "timestamp": "2025-06-28 09:43:22",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+2025-06-28 15:13:24 INFO  com.vikesh.api.utility.Listener - Test passed1
